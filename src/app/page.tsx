@@ -240,7 +240,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="text-center mt-16 pb-8">
         <p className="text-xs text-white/20">
-          Social Media Views Dashboard • Powered by RapidAPI
+          Social Media Views Dashboard • Adhitya Sukma
         </p>
       </footer>
     </main>
