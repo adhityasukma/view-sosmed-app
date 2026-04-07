@@ -69,7 +69,7 @@ export default function Home() {
               newErrors.push(`TikTok: ${res.error || 'Unknown error'}`);
             }
           })
-          .catch((err) => newErrors.push(`TikTok: ${err.message}`))
+          .catch((err) => { newErrors.push(`TikTok: ${err.message}`); })
       );
     }
 
@@ -84,7 +84,7 @@ export default function Home() {
               newErrors.push(`YouTube: ${res.error || 'Unknown error'}`);
             }
           })
-          .catch((err) => newErrors.push(`YouTube: ${err.message}`))
+          .catch((err) => { newErrors.push(`YouTube: ${err.message}`); })
       );
     }
 
@@ -99,7 +99,7 @@ export default function Home() {
               newErrors.push(`Instagram: ${res.error || 'Unknown error'}`);
             }
           })
-          .catch((err) => newErrors.push(`Instagram: ${err.message}`))
+          .catch((err) => { newErrors.push(`Instagram: ${err.message}`); })
       );
     }
 
